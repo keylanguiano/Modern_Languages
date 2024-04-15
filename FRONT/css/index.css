@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*
+{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 500;
+}
+
+.card
+{
+  border-radius: 20px !important;
+  padding: 50px 20px 40px 20px !important;
+  background-color: rgb(255, 227, 227) !important;
+}
+
+.centerClass
+{
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  background-color: rgb(253, 247, 247) !important;
+}
+
+.alerta
+{
+  position: absolute !important;
+  top: 10px !important;
+  right: 30px !important;
+  z-index: 10000 !important;
+}
+
+.titulo
+{
+  width: 100% !important;
+  color: rgb(126, 126, 126) !important;
+  text-shadow: 0 0 1px #7e7e7e4a !important;
+  font-size: 35px !important;
+  font-weight: 700 !important;
+  justify-content: center !important;
+  margin-bottom: 20px !important;
+}
+
+.btn
+{
+  background-color: rgb(255, 154, 147) !important;
+  margin-top: 20px !important;
+  color: white !important;
+  border-radius: 20px !important;
+  font-weight: 600 !important;
+}
+
+.nav-bar
+{
+  background-color: rgb(255, 224, 218) !important;
+  color: gray !important;
+  justify-content: center;
+}
+
+.nav-option, .nav-bar-icon
+{
+  color: gray !important;
+}
+
+.v-list-item:active
+{
+  background-color: rgb(255, 210, 201) !important;
+  color: gray !important;
+}
+
+.center
+{
+  align-self: center !important;
+  margin-top: 20px !important;
+  position: relative;
+}
+
+.table
+{
+  width: 100% !important;
+}
+
+.dialog
+{
+  width: 600px !important;
+  height: auto !important;
+  padding: 50px 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border-radius: 20px !important;
+}
+
+.dialog-delete
+{
+  height: auto !important;
+  padding: 50px 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border-radius: 20px !important;
+}

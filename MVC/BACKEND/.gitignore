@@ -1,0 +1,10 @@
+node_modules
+node_modules/
+.env
+/src/config/serviceAccountsKey.json
+
+• MODELS es la estructura definida de la BD
+• CONTROLLERS realizan las operaciones CRUD
+• SERVICES es la validación
+• ROUTES es la que responde a la petición
+• CONFIIG es la conexión a la BD
